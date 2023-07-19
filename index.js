@@ -1,6 +1,7 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
 
+/* Get the html content from url */
 const getPage = async (url) => {
   try {
     const res = await axios.get(url);
@@ -11,6 +12,7 @@ const getPage = async (url) => {
   }
 };
 
+/* Retrieve the links from html content */
 const getLink = async () => {
   const html = await getPage(url);
   if (html) {
