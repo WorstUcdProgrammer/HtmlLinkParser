@@ -1,0 +1,23 @@
+{
+  "name": "htmllinkparser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WorstUcdProgrammer/HtmlLinkParser.git"
+  },
+  "author": "Yizeng Zhou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WorstUcdProgrammer/HtmlLinkParser/issues"
+  },
+  "homepage": "https://github.com/WorstUcdProgrammer/HtmlLinkParser#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
